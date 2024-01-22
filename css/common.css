@@ -1,0 +1,58 @@
+.wrapper {
+    width: var(--width);
+    margin: auto;
+}
+
+.btn_primary{
+background-color: var(--white);
+border: none;
+font-size: 1.4rem;
+font-weight: 600;
+color: var(--grey);
+border-radius: 20px;
+padding: 1rem 2.5rem;
+cursor: pointer;
+}
+
+.btn_secondary {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    font-size: 1.rem;
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 20px; 
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    transition: backround-color 0.3s ease;
+}
+
+.btn_secondary:hover {
+    background-color: var(--primary-dark);
+
+}
+
+.btn_secondary_outline {
+  background-color: #108a00;
+  border: 1px solid var(--primary);
+  /* border: none; */
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary);
+  padding: 1rem 2.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.title-1 {
+    font-size: 8rem;
+}
+
+.title-3 {
+    font-size: 2.4rem;
+}
+
+.title-4 {
+    font-size: 1.6rem;
+}
+
